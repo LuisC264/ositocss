@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.oso {
+    position: relative;
+    width: 200px;
+    height: 300px; 
+}
+
+.oreja {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #8b4513;
+    border-radius: 50%;
+}
+
+.oreja.izquierda {
+    top: 0;
+    left: 0;
+}
+
+.oreja.derecha {
+    top: 0;
+    right: 0;
+}
+
+.cabeza {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: #8b4513;
+    border-radius: 50%;
+}
+
+.ojo {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.ojo.izquierdo {
+    top: 80px;
+    left: 70px;
+}
+
+.ojo.derecho {
+    top: 80px;
+    left: 110px;
+}
+
+.hocico {
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    width: 40px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50% / 60%;
+}
+
+.nariz {
+    position: absolute;
+    top: 110px;
+    left: 95px;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.boca {
+    position: absolute;
+    top: 120px;
+    left: 90px;
+    width: 20px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50% / 100%;
+}
+
+.cuerpo {
+    position: absolute;
+    top: 150px; 
+    left: 25px;
+    width: 150px;
+    height: 150px;
+    background-color: #8b4513;
+    border-radius: 50%;
+}
+
+.pata {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #8b4513;
+    border-radius: 50%;
+}
+
+.pata.izquierda {
+    top: 260px; 
+    left: 30px;
+}
+.mano {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #8b4513;
+    border-radius: 50%;
+}
+.centro {
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+}
+.mano.izquierda {
+    top: 150px; 
+    left: 10px;
+}
+.mano.derecha {
+    top: 150px; 
+    left: 150px;
+}
+.pata.derecha {
+    top: 260px;
+    right: 30px;
+}
